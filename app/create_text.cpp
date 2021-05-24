@@ -30,7 +30,12 @@ text create_text()
     txt->cursor->line = txt->myList->end();
     txt->cursor->position = 0;
 
-    return txt;
 
-    free(txt);
+    return txt;
+    delete(txt);
+
+
+
+
 }
+
