@@ -31,5 +31,6 @@ text create_text()
     txt->cursor->position = 0;
 
     return txt;
+
     free(txt);
 }
