@@ -41,5 +41,4 @@ HEADERS += \
 INCLUDEPATH += ../app
 
 DISTFILES += \
-    ../input.txt \
-    saver.txt
+    ../input.txt
