@@ -32,5 +32,5 @@ text create_text()
 
     return txt;
 
-    delete(txt);
+    free(txt);
 }
