@@ -15,7 +15,7 @@ text create_text()
         exit(EXIT_FAILURE);
     }
 
-    txt = new _list;
+    
 
 
     if ((txt->cursor = (_crsr *) malloc(sizeof(_crsr))) == NULL)
