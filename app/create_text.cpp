@@ -15,7 +15,11 @@ text create_text()
         exit(EXIT_FAILURE);
     }
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 8589d0521c2306385f15fc2d1b12623460a2851d
 
 
     if ((txt->cursor = (_crsr *) malloc(sizeof(_crsr))) == NULL)
@@ -31,10 +35,14 @@ text create_text()
     txt->cursor->position = 0;
 
 
+<<<<<<< HEAD
     return txt;
     free(txt);
 
 
 
+=======
+    
+>>>>>>> 8589d0521c2306385f15fc2d1b12623460a2851d
 }
 
